@@ -1,7 +1,7 @@
 {
     "name": "arrivals",
     "description": "Restaurant order readiness desk",
-    "version": "0.0.0",
+    "version": "0.1.0",
 
     "homepage": "https://github.com/LitRidl/arrivals",
     "private": true,
