@@ -1,0 +1,71 @@
+{
+   "name": "arrivals",
+    "description": "Restaurant order readiness desk",
+    "version": "0.0.0",
+
+    "homepage": "https://github.com/LitRidl/arrivals",
+    "private": true,
+
+    "authors": [
+        "Vadim Rybalkin <metserp@gmail.com>",
+        "Michael Ridley <litridl@gmail.com>"
+    ],
+
+    "bugs": {
+        "url": "https://github.com/LitRidl/arrivals/issues"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/LitRidl/arrivals.git"
+    },
+
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+
+    "dependencies": {
+        "angular-animate": "~1.4.2",
+        "angular-cookies": "~1.4.2",
+        "angular-touch": "~1.4.2",
+        "angular-sanitize": "~1.4.2",
+        "angular-messages": "~1.4.2",
+        "angular-aria": "~1.4.2",
+        "jquery": "~2.1.4",
+        "angular-resource": "~1.4.2",
+        "angular-ui-router": "~0.2.15",
+        "bootstrap-sass": "~3.3.4",
+        "malarkey": "yuanqing/malarkey#~1.3.0",
+        "angular-toastr": "~1.4.1",
+        "moment": "~2.10.3",
+        "animate.css": "~3.3.0",
+        "angular": "~1.4.2"
+    },
+
+    "devDependencies": {
+        "angular-mocks": "~1.4.2"
+    },
+
+    "overrides": {
+        "bootstrap-sass": {
+            "main": [
+                "assets/javascripts/bootstrap.js",
+                "assets/stylesheets/_bootstrap.scss",
+                "assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
+                "assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
+                "assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
+                "assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
+                "assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+            ]
+        }
+    },
+
+    "resolutions": {
+        "jquery": "~2.1.4",
+        "angular": "~1.4.2"
+    }
+}
